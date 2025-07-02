@@ -1,0 +1,35 @@
+.table th,
+.table td {
+    vertical-align: middle;
+}
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+.table thead th {
+    background: #ffffff;
+    font-weight: 400;
+}
+
+.btn-info {
+    background-color: #00c3ff;
+    border: none;
+    color: black;
+}
+
+.btn-warning {
+    background-color: #f8c343;
+    border: none;
+    color: black;
+}
+
+.btn-danger {
+    background-color: #cf454a;
+    border: none;
+}
+
+.btn-info:hover,
+.btn-warning:hover,
+.btn-danger:hover {
+    opacity: 0.8;
+}
